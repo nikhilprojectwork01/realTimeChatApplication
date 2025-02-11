@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+body {
+  background-image: url('/back.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: inherit;
+}
+.message-section{
+  height:26rem;
+  overflow: auto;
+}
